@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login to My Account</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black-200">
+    <header class="text-5xl text-center my-10 font-semibold">Welcome to <span class="text-red-600">Bank Of
+            America</span>
+    </header>
+    <main>
+        <section class=" w-3/4 mx-auto p-10 rounded " style="display:flexbox">
+            <h3 class="text-2xl">Please Login</h3>
+            <div class="space-y-5">
+                <input id="user-email" class="w-3/4 block px-3 my-3 h-9 rounded border-slate-400 border-2" type="email"
+                    placeholder="Enter your Email" required>
+
+                <input id="user-password" class="w-3/4 block px-3 my-3 h-9 rounded border-slate-400 border-2"
+                    type="password" placeholder="Enter your Password">
+                <h3 id="error" class="text-1xl text-red-800" style="color:red ;"></h3>
+                <h2 style="font-size: 20px;"><a href="#">Forgot password/Email?</a> </h2>
+
+                <button id="submit-button" class="bg-red-500 text-white rounded px-3 py-2 font-semibold">Submit</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/login.js"></script>
+</body>
+
+</html>
